@@ -53,7 +53,7 @@ The below agenda is meant to be flexible, based on what we need to discuss.
 | 11:20 | (all)           | way forward?                                      |
 | 11:40 | Carsten Bormann | Impulse talk "events and time series"             |
 | 12:00 | (all)           | Structure into breakouts                          |
-| 12:15 | Lunch           | Space for breakouts                               |
+| 12:15 | Lunch           |                                                   |
 | 13:30 | (all)           | Space for breakouts                               |
 | 14:15 | (all)           | breakout reports, Wrapup "Beyond REST" discussion |
 
@@ -66,7 +66,7 @@ The below agenda is meant to be flexible, based on what we need to discuss.
 | 16:20 | Jaime Jiménez   | "Mapping from LWM2M model to CoMI YANG model"      |
 | 16:40 | (all)           | other experience on model translation              |
 | 17:00 | (all)           | Structure into breakouts                           |
-| 17:15 | Lunch           | Space for breakouts                                |
+| 17:15 | (all)           | Space for breakouts                                |
 | 17:45 | (all)           | breakout reports, Wrapup "Type Systems" discussion |
 
 # SUNDAY, September 25
