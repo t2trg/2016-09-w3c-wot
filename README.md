@@ -4,6 +4,8 @@ Meeting with/after W3C WoT/TPAC in Lisbon
 
 (Original on [https://github.com/t2trg/2016-09-w3c-wot](https://github.com/t2trg/2016-09-w3c-wot))
 
+All times are WEST (West European Summer Time, UTC+0100)
+
 # WHERE
 
 September 21..24/25, 2016, Lisbon, Portugal
@@ -59,12 +61,12 @@ The below agenda is meant to be flexible, based on what we need to discuss.
 
 |       |                 | Type Systems, Models, Model Translation            |
 |-------|-----------------|----------------------------------------------------|
-| 14:45 | Ari Keränen     | Bluetooth URIs                                     |
-| 15:05 | Daniel Lux      | "Seluxit REST-ful open API for Lemonbeat devices"  |
-| 15:25 | Coffee break    |                                                    |
-| 15:55 | Carsten Bormann | Impulse talk "type systems"                        |
-| 16:20 | Jaime Jiménez   | "Mapping from LWM2M model to CoMI YANG model"      |
-| 16:40 | (all)           | other experience on model translation              |
+| 14:40 | Jaime Jiménez   | "Mapping from LWM2M model to CoMI YANG model"      |
+| 15:00 | Ari Keränen     | Bluetooth URIs                                     |
+| 15:20 | Coffee break    |                                                    |
+| 15:50 | Daniel Lux      | "Seluxit REST-ful open API for Lemonbeat devices"  |
+| 16:10 | Carsten Bormann | Impulse talk "type systems", discussion            |
+| 16:40 | (all)           | other experience on models/translation, discussion |
 | 17:00 | (all)           | Structure into breakouts                           |
 | 17:15 | (all)           | Space for breakouts                                |
 | 17:45 | (all)           | breakout reports, Wrapup "Type Systems" discussion |
