@@ -18,6 +18,8 @@ Please register ahead of time with [T2TRG chairs](mailto:t2trg-chairs@ietf.org)
 
 Remote participation: [Hangout](https://hangouts.google.com/hangouts/_/bomthsflordmhfhplund2imm64e)
 
+Notes: [Google doc](https://docs.google.com/document/d/1dJVJIKTkzPkisfS4KKhLvXCVzFac039HNWyT199GDmw/edit?usp=sharing)
+
 # WEDNESDAY, September 21
 
 WoT Demo [https://www.w3.org/WoT/IG/wiki/F2F_meeting,_September_2016,_Portugal,_Lisbon_Demo](https://www.w3.org/WoT/IG/wiki/F2F_meeting,_September_2016,_Portugal,_Lisbon_Demo)
