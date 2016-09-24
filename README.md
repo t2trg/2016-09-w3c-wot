@@ -16,6 +16,8 @@ Sat..Sun: T2TRG meeting [Siemens, Rua Irmãos Siemens, 2720-093 Amadora, Portuga
 
 Please register ahead of time with [T2TRG chairs](mailto:t2trg-chairs@ietf.org)
 
+Remote participation: [Hangout](https://hangouts.google.com/hangouts/_/bomthsflordmhfhplund2imm64e)
+
 # WEDNESDAY, September 21
 
 WoT Demo [https://www.w3.org/WoT/IG/wiki/F2F_meeting,_September_2016,_Portugal,_Lisbon_Demo](https://www.w3.org/WoT/IG/wiki/F2F_meeting,_September_2016,_Portugal,_Lisbon_Demo)
