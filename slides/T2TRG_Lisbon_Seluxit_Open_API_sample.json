@@ -1,0 +1,2675 @@
+{
+  ":type": "urn:seluxit:xml:bastard:network-1.0",
+  ":id": "5cc10dcf-78ee-4927-8bf4-ad01f6d29f00",
+  "device": [
+    {
+      ":type": "urn:seluxit:xml:bastard:device-1.0",
+      ":id": "f4f5c3b1-3c93-4fa8-9941-7b44c4f94ea9",
+      "name": "DONGLE",
+      "manufacturer": "Seluxit",
+      "product": "1-Gateway",
+      "version": "1-2.5.2-1.2.1-5135-1.0.2",
+      "serial": "3034F8EE90155B4000008809",
+      "protocol": "Lemonbeat",
+      "communication": "Always Online",
+      "included": "1",
+      "status": [
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "41f895ce-75d6-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-08T15:09:37.164859Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "f1af3660-76e6-11e6-b7f2-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-09T23:41:35.073331Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "8a30e5cc-7b2f-11e6-9e99-001a65001494",
+          "level": "important",
+          "type": "system",
+          "message": "STATUS_SYSTEM_NO_NTP",
+          "timestamp": "2016-09-15T10:31:19.356762Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "a9e829f8-7fd4-11e6-96b1-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-21T08:23:24.174519Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "15b1923e-7fdd-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-21T09:23:40.984474Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "8138332a-7fe5-11e6-b6a5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-21T10:23:57.356833Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "367de2b8-823c-11e6-a0be-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T09:49:40.525486Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "a14bab0e-8244-11e6-b672-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T10:49:55.686400Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "0c93d640-824d-11e6-bd52-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T11:50:11.649431Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "7715d060-8255-11e6-b8bf-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T12:50:26.313547Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "e23bf79a-825d-11e6-ad65-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T13:50:42.053668Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "4d621bd2-8266-11e6-8619-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T14:50:57.793668Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "ca2e3ab6-826f-11e6-8c4a-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-24T15:58:52.639424Z"
+        }
+      ],
+      "service": [
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "b3c833b9-911e-40af-8d4c-46c1ad28c5a6",
+          "name": "Mac Sequence Count",
+          "permission": "rw",
+          "type": "Counter",
+          "virtual": "false",
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "ac6395ca-c07e-4943-8f63-b074a45d551f",
+              "type": "Report",
+              "timestamp": "2016-09-24T15:58:44.0Z",
+              "data": "0000009C"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "7e41214b-d631-4916-a012-5972c73190b3",
+              "type": "Control",
+              "timestamp": "2016-09-07T08:56:00.0Z",
+              "data": "00000001"
+            }
+          ]
+        }
+      ],
+      "configuration": [
+        {
+          ":type": "urn:seluxit:xml:bastard:configuration-1.0",
+          ":id": "e6414274-74d8-11e6-9526-001a65001494",
+          "status": "idle",
+          "partner": [
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "0537b27d-8204-4f05-94ec-1213eb5b2e4e",
+              "device_id": "f4f5c3b1-3c93-4fa8-9941-7b44c4f94ea9"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "5c5b5a1e-f0e6-470c-b4a0-5db51c93e0c5",
+              "device_id": "ef340006-750a-11e6-b25b-001a65001494"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "029e758a-baed-4fdc-b886-2af6b7744bc4",
+              "device_id": "fa244770-75a3-11e6-a0a1-001a65001494"
+            }
+          ],
+          "action": [],
+          "calendar": [],
+          "calculation": [],
+          "timer": [],
+          "statemachine": [],
+          "service": []
+        }
+      ]
+    },
+    {
+      ":type": "urn:seluxit:xml:bastard:device-1.0",
+      ":id": "ef340006-750a-11e6-b25b-001a65001494",
+      "name": "SG WC",
+      "manufacturer": "Gardena",
+      "product": "1-DEVICE",
+      "version": "0.3.5-2.5.2-1.2.1-5136-ICD1.17_1.0.10",
+      "serial": "3034F8EE90126D4000003051",
+      "protocol": "Lemonbeat",
+      "communication": "Wake on Radio",
+      "included": "1",
+      "status": [
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "5adadae6-7524-11e6-a0a1-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_REPORT_SUCCESS",
+          "timestamp": "2016-09-07T17:56:08.494959Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "6454a17e-75ab-11e6-b830-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_UPGRADE_SUCCESS",
+          "timestamp": "2016-09-08T10:02:46.451068Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "7004d412-75ab-11e6-b830-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T10:03:06.060683Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "70059ee2-75ab-11e6-b830-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_REPORT_SUCCESS",
+          "timestamp": "2016-09-08T10:03:06.065876Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "72776958-75ab-11e6-b830-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-08T10:03:10.167061Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "2dd5b68c-75e3-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_UPGRADE_SUCCESS",
+          "timestamp": "2016-09-08T16:42:06.839139Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "3c210b06-75e3-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T16:42:30.820971Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "3c23526c-75e3-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_REPORT_SUCCESS",
+          "timestamp": "2016-09-08T16:42:30.837152Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "3dec4c02-75e3-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-08T16:42:33.830691Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "935c065a-7615-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T22:42:52.018282Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "f537a886-761d-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T23:42:52.164483Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "571e97be-7626-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T00:42:52.388198Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "b98f9904-762e-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T01:42:53.519953Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "1b7b82ec-7637-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T02:42:53.778244Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "7d6ed3f2-763f-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T03:42:54.093908Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "dfa302de-7647-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T04:42:54.825965Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "41feef12-7650-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T05:42:55.811312Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "a4915540-7658-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T06:42:57.162073Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "3faedece-7921-11e6-9ee1-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-12T19:43:59.073659Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "f540c240-7a7d-11e6-ba9a-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-14T13:20:08.554886Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "d89fae60-7de0-11e6-899b-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-18T20:45:34.191536Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "b24dd518-7fbe-11e6-9ef7-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-21T05:46:09.344005Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "15667372-7fcd-11e6-8f95-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-21T07:29:08.544618Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "6ab0676a-7fe2-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-21T10:01:51.066735Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "255ed13a-7fe5-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-21T10:21:23.259437Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "2f6e20b8-7fe5-11e6-b8e5-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-21T10:21:40.146362Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "2f8eef5a-7fe5-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-21T10:21:40.352039Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "ee02e5ae-826f-11e6-8c4a-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-24T15:59:52.753304Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "f775e32a-826f-11e6-8c4a-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-24T16:00:08.611795Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "f7c04a82-826f-11e6-8c4a-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-24T16:00:09.094008Z"
+        }
+      ],
+      "service": [
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "0d7a047d-f789-421b-b3fc-80abd495c2fc",
+          "name": "disposable_battery_lifecycle",
+          "permission": "r",
+          "type": "Operation Mode",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "3.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "a2ef14b7-590c-4919-a2d0-56d9e7e1d035",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:00:09.0Z",
+              "data": "3.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "5f21856f-1b4c-4402-83c4-5c69dfae0e53",
+          "name": "battery_level",
+          "permission": "r",
+          "type": "Power",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "percent"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "1dfb9389-7aab-4ddc-8da5-81a17703f370",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:00:09.0Z",
+              "data": "91.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "bf93caae-c20d-41f6-bf84-0f85c1f603e6",
+          "name": "rf_link_quality",
+          "permission": "r",
+          "type": "General Purpose",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "percent"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "8141367e-8a13-4e8e-bd96-6310319bb08d",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:00:09.0Z",
+              "data": "100.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "9eb5fb9d-633f-42ad-880b-c2024d15f542",
+          "name": "rf_link_state",
+          "permission": "r",
+          "type": "Operation Mode",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "2.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "9e7357ca-7345-4d61-9569-a2b557cc507a",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:00:09.0Z",
+              "data": "2.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "3309a9fa-9da2-4c47-813c-287cb58b5c16",
+          "name": "ambient_temperature",
+          "permission": "r",
+          "type": "Temperature",
+          "virtual": "false",
+          "number": {
+            "min": "-30.000000",
+            "max": "85.000000",
+            "step": "1.000000",
+            "unit": "C"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "789227da-0b77-4f54-b7c1-476aa0b05a1e",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:00:09.0Z",
+              "data": "24.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "36b53baa-6187-434d-a64b-401ee8fcf025",
+          "name": "frost_warning",
+          "permission": "r",
+          "type": "On/Off",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "1.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "8bdff21f-346e-494d-9c60-77b63eebe0a4",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:00:09.0Z",
+              "data": "0.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "e4b86166-8244-452e-8e31-4169d98f7d33",
+          "name": "valve_open",
+          "permission": "rw",
+          "type": "On/Off",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "1.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "a749d655-2d9b-4876-a3ef-eb2b6a2f7716",
+              "type": "Control",
+              "timestamp": "2016-09-07T14:54:26.0Z",
+              "data": "0.000000"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "39685132-64b9-43ea-9ac3-ee3393a264e3",
+              "type": "Report",
+              "timestamp": "2016-09-24T15:29:38.0Z",
+              "data": "0.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "32cff8a0-fe3e-434e-a281-249b6893701d",
+          "name": "valve_open_max_time",
+          "permission": "r",
+          "type": "Time",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "1440.000000",
+            "step": "1.000000",
+            "unit": "min"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "6873b55e-0703-43b2-a24e-2d17fe95502a",
+              "type": "Report",
+              "timestamp": "2016-09-08T16:42:24.0Z",
+              "data": "600.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "f11f22e7-4252-4784-94ba-74736d257925",
+          "name": "manual_override",
+          "permission": "r",
+          "type": "Operation Mode",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "1.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "28ca3497-0a6e-4153-af90-febad5f3685c",
+              "type": "Report",
+              "timestamp": "2016-09-24T15:29:38.0Z",
+              "data": "0.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "03ddef07-389c-4b1c-a08e-bc04de621678",
+          "name": "manual_override_time",
+          "permission": "rw",
+          "type": "Time",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "59.000000",
+            "step": "1.000000",
+            "unit": "min"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "1ef39340-803d-48ee-a15e-55e1e0cf413f",
+              "type": "Control",
+              "timestamp": "2016-09-24T14:59:35.0Z",
+              "data": "30"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "c3df8993-d332-446c-9fcf-56ca348cf326",
+              "type": "Report",
+              "timestamp": "2016-09-24T14:59:37.0Z",
+              "data": "30.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "9f778b90-bcce-40fd-afa0-14734b7395d3",
+          "name": "button_manual_override_time",
+          "permission": "rw",
+          "type": "Time",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "59.000000",
+            "step": "1.000000",
+            "unit": "min"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "af7f7984-6f9f-4f85-95df-24c51dfa6892",
+              "type": "Control",
+              "timestamp": "2016-09-24T14:59:37.0Z",
+              "data": "30"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "1abf09a9-cc4f-45dc-b478-d408baa62a70",
+              "type": "Report",
+              "timestamp": "2016-09-24T14:59:38.0Z",
+              "data": "30.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "bc47f161-c025-4914-95a1-4f2dd1ce85ed",
+          "name": "command",
+          "permission": "rw",
+          "type": "Program",
+          "virtual": "false",
+          "number": {
+            "min": "1.000000",
+            "max": "17.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "a1d2bea9-781e-4a95-953c-0e503476b5af",
+              "type": "Control",
+              "timestamp": "2016-09-24T14:59:36.0Z",
+              "data": "15"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "bac2f186-14d6-4861-a7c8-9328d6acdc2f",
+              "type": "Report",
+              "timestamp": "2016-09-24T14:59:38.0Z",
+              "data": "15.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "4752f42b-95a6-475f-8f28-c51921944628",
+          "name": "private_command",
+          "permission": "rw",
+          "type": "General Purpose",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+              "type": "Control",
+              "timestamp": "2016-09-07T14:54:26.0Z",
+              "data": "15.000000"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "f538ae4e-d3b1-4d2b-8e5e-e319cf164248",
+              "type": "Report",
+              "timestamp": "2016-09-08T16:42:24.0Z",
+              "data": "2.000000"
+            }
+          ]
+        }
+      ],
+      "configuration": [
+        {
+          ":type": "urn:seluxit:xml:bastard:configuration-1.0",
+          ":id": "e8c13e32-d16e-452e-b42b-1370d18062c7",
+          "status": "active",
+          "limits": {
+            "partner": "5",
+            "action": "45",
+            "calendar": "36",
+            "calculation": "30",
+            "timer": "20",
+            "statemachine": "10",
+            "transactions": "40"
+          },
+          "partner": [
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "13800d87-1c0c-4cd4-a162-a17c6a634990",
+              "device_id": "f4f5c3b1-3c93-4fa8-9941-7b44c4f94ea9"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "36c11202-6de2-4ff6-be09-e6bbe87aa4a7",
+              "device_id": "fa244770-75a3-11e6-a0a1-001a65001494"
+            }
+          ],
+          "action": [
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "5ee87de3-d398-4f38-8d62-dcc718619c11",
+              "report": {
+                "my_value_id": "a2ef14b7-590c-4919-a2d0-56d9e7e1d035",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "30f8a0a1-750a-468d-b161-c5c9fc4f1dce",
+              "report": {
+                "my_value_id": "1dfb9389-7aab-4ddc-8da5-81a17703f370",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "56f53a35-b9be-430c-9275-8dad8885056f",
+              "report": {
+                "my_value_id": "8141367e-8a13-4e8e-bd96-6310319bb08d",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "bfa324a9-6ca1-4065-9dca-aaf8ee1acb4d",
+              "report": {
+                "my_value_id": "9e7357ca-7345-4d61-9569-a2b557cc507a",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "dbdf89b1-7fa1-49ad-b47c-96d0de82a602",
+              "report": {
+                "my_value_id": "789227da-0b77-4f54-b7c1-476aa0b05a1e",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "bffa888d-15a9-45b3-9b59-c089b4fc543b",
+              "report": {
+                "my_value_id": "8bdff21f-346e-494d-9c60-77b63eebe0a4",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "59a31814-ddcf-439a-a19f-7da2b8ec3444",
+              "report": {
+                "my_value_id": "39685132-64b9-43ea-9ac3-ee3393a264e3",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "4ca5cfdb-073f-4078-9e8b-398a2460411c",
+              "report": {
+                "my_value_id": "6873b55e-0703-43b2-a24e-2d17fe95502a",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "65c6eb4d-8fe9-4d60-8199-4c2f28037922",
+              "report": {
+                "my_value_id": "28ca3497-0a6e-4153-af90-febad5f3685c",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "5641b8f7-d000-4608-b8ba-fbb0c1d78eb1",
+              "report": {
+                "my_value_id": "c3df8993-d332-446c-9fcf-56ca348cf326",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "7e705408-1fa1-4b4f-a53f-ca16d25f2980",
+              "report": {
+                "my_value_id": "1abf09a9-cc4f-45dc-b478-d408baa62a70",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "d946ad2c-cbec-4ca0-964e-fa658020aa54",
+              "report": {
+                "my_value_id": "bac2f186-14d6-4861-a7c8-9328d6acdc2f",
+                "partner_id": "13800d87-1c0c-4cd4-a162-a17c6a634990"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "b2608185-e681-4553-947a-0b72c2fff411",
+              "start_timer": {
+                "timer_id": "f84569f7-4d19-482c-97ee-19c14671792b"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "22d78510-956e-43aa-916f-ea33e2d97911",
+              "set": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+                "number": "16"
+              },
+              "start_timer": {
+                "timer_id": "198a85db-ddef-45d7-9f1b-dcb87bb227a7"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "ca54a084-599f-46ab-9db1-c1f5ef0170f0",
+              "start_timer": {
+                "timer_id": "34b80dc5-aefc-4d5e-9171-8957200a001d"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "98de17a7-095b-423d-93d3-6d4c1e89fa70",
+              "set": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+                "number": "13"
+              },
+              "start_timer": {
+                "timer_id": "ec8810e0-fbda-4eb1-992e-f1ecdd3683cd"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "e2d2e2f6-b48d-4552-ae1b-c00445756621",
+              "start_timer": {
+                "timer_id": "dba14fca-f26c-4bd5-b76c-00715497983e"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "818209cc-3bfe-4280-8455-b1ad4ba78917",
+              "set": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+                "number": "11"
+              },
+              "start_timer": {
+                "timer_id": "b2221d70-6822-47b1-bd62-223cfd505072"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "95f6ff2b-0987-4794-8844-f57bba33ca80",
+              "start_timer": {
+                "timer_id": "fe7a2a67-bcdf-4111-a4d4-c616fa306d42"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "711b020a-17c5-44e8-80ce-b3024b6f9b19",
+              "set": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+                "number": "15"
+              },
+              "start_timer": {
+                "timer_id": "1422be5e-cc80-4796-9d29-7e5b95880c7f"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "578ee93f-49cf-404f-8128-7657720512a5",
+              "set": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+                "number": "5"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "076938ba-0102-4980-b585-6dfc4555cc57",
+              "set": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1",
+                "number": "6"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "3088074e-80bb-48b0-b6e5-f4778b38859f",
+              "get": {
+                "value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2",
+                "partner_id": "36c11202-6de2-4ff6-be09-e6bbe87aa4a7"
+              },
+              "start_timer": {
+                "timer_id": "3308a20d-0bac-46cb-974c-3a3619ba568f"
+              }
+            }
+          ],
+          "calendar": [],
+          "calculation": [
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "0c719152-b302-4a88-a2d2-5e47f9d719ce",
+              "left": {
+                "value_id": "a2ef14b7-590c-4919-a2d0-56d9e7e1d035",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "59331d60-6fa2-49e7-9d52-086977c7ca12",
+              "left": {
+                "value_id": "1dfb9389-7aab-4ddc-8da5-81a17703f370",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "f60cc30e-eddf-4f9a-a863-7f0372cf1647",
+              "left": {
+                "value_id": "8141367e-8a13-4e8e-bd96-6310319bb08d",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "e2e9d072-85f8-423b-8eec-a48e72a1d071",
+              "left": {
+                "value_id": "9e7357ca-7345-4d61-9569-a2b557cc507a",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "955104f2-a695-41c6-bd9a-4f8f92f0da11",
+              "left": {
+                "value_id": "789227da-0b77-4f54-b7c1-476aa0b05a1e",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "dbf8ee2a-31b7-41f5-9ca4-fe224cafa0ba",
+              "left": {
+                "value_id": "8bdff21f-346e-494d-9c60-77b63eebe0a4",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "2833f56b-81a0-41fd-87e2-35bd46302ca5",
+              "left": {
+                "value_id": "a749d655-2d9b-4876-a3ef-eb2b6a2f7716",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "b5af8785-55bb-4815-9a6f-36c23e026d2b",
+              "left": {
+                "value_id": "6873b55e-0703-43b2-a24e-2d17fe95502a",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "6291b4e0-2886-41d1-899c-cb58c640c8e9",
+              "left": {
+                "value_id": "28ca3497-0a6e-4153-af90-febad5f3685c",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "b08d08d1-1452-4737-8c59-02b5438911e4",
+              "left": {
+                "value_id": "1ef39340-803d-48ee-a15e-55e1e0cf413f",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "54c82d69-ed58-41c9-b786-eeaf0ee09537",
+              "left": {
+                "value_id": "af7f7984-6f9f-4f85-95df-24c51dfa6892",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "90cd9918-9156-4642-acd6-7c58a3b5caa4",
+              "left": {
+                "value_id": "a1d2bea9-781e-4a95-953c-0e503476b5af",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "2890e1ad-25ad-4231-be3f-7d3cc826bb58",
+              "left": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "equal"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "a50f7704-fe0d-49b0-a3ff-727063c670cf",
+              "left": {
+                "value_id": "926f2f73-d7cc-41ac-9a12-a864745adaf1"
+              },
+              "right": {
+                "constant_number": "2"
+              },
+              "method": "equal"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "a4c1caff-8a34-495e-b7ca-5faef9c1fcd1",
+              "left": {
+                "partner_id": "36c11202-6de2-4ff6-be09-e6bbe87aa4a7",
+                "value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2"
+              },
+              "right": {
+                "constant_number": "55"
+              },
+              "method": "greater"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "c9f644bc-dac4-4c46-8e95-015071f07c71",
+              "left": {
+                "timer_id": "3308a20d-0bac-46cb-974c-3a3619ba568f"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "equal"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "1f95d0d6-bf3e-4836-9393-90f7f390578d",
+              "left": {
+                "timer_id": "3308a20d-0bac-46cb-974c-3a3619ba568f"
+              },
+              "right": {
+                "constant_number": "0"
+              },
+              "method": "equal"
+            }
+          ],
+          "timer": [
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "f84569f7-4d19-482c-97ee-19c14671792b",
+              "after": "15000",
+              "action_id": "22d78510-956e-43aa-916f-ea33e2d97911"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "198a85db-ddef-45d7-9f1b-dcb87bb227a7",
+              "after": "3600000",
+              "action_id": "22d78510-956e-43aa-916f-ea33e2d97911"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "34b80dc5-aefc-4d5e-9171-8957200a001d",
+              "after": "15000",
+              "action_id": "98de17a7-095b-423d-93d3-6d4c1e89fa70"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "ec8810e0-fbda-4eb1-992e-f1ecdd3683cd",
+              "after": "3600000",
+              "action_id": "98de17a7-095b-423d-93d3-6d4c1e89fa70"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "dba14fca-f26c-4bd5-b76c-00715497983e",
+              "after": "15000",
+              "action_id": "818209cc-3bfe-4280-8455-b1ad4ba78917"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "b2221d70-6822-47b1-bd62-223cfd505072",
+              "after": "3600000",
+              "action_id": "818209cc-3bfe-4280-8455-b1ad4ba78917"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "fe7a2a67-bcdf-4111-a4d4-c616fa306d42",
+              "after": "15000",
+              "action_id": "711b020a-17c5-44e8-80ce-b3024b6f9b19"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "1422be5e-cc80-4796-9d29-7e5b95880c7f",
+              "after": "3600000",
+              "action_id": "711b020a-17c5-44e8-80ce-b3024b6f9b19"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "3308a20d-0bac-46cb-974c-3a3619ba568f",
+              "after": "10000"
+            }
+          ],
+          "statemachine": [
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "4a36d005-44f2-40dc-83e9-41a53dbcc2be",
+              "state": [
+                {
+                  "transaction": {
+                    "calculation_id": "2890e1ad-25ad-4231-be3f-7d3cc826bb58",
+                    "goto_state": "2"
+                  },
+                  ":id": "1"
+                },
+                {
+                  "transaction": [
+                    {
+                      "calculation_id": "0c719152-b302-4a88-a2d2-5e47f9d719ce",
+                      "action_id": "5ee87de3-d398-4f38-8d62-dcc718619c11",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "59331d60-6fa2-49e7-9d52-086977c7ca12",
+                      "action_id": "30f8a0a1-750a-468d-b161-c5c9fc4f1dce",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "f60cc30e-eddf-4f9a-a863-7f0372cf1647",
+                      "action_id": "56f53a35-b9be-430c-9275-8dad8885056f",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "e2e9d072-85f8-423b-8eec-a48e72a1d071",
+                      "action_id": "bfa324a9-6ca1-4065-9dca-aaf8ee1acb4d",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "955104f2-a695-41c6-bd9a-4f8f92f0da11",
+                      "action_id": "dbdf89b1-7fa1-49ad-b47c-96d0de82a602",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "dbf8ee2a-31b7-41f5-9ca4-fe224cafa0ba",
+                      "action_id": "bffa888d-15a9-45b3-9b59-c089b4fc543b",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "2833f56b-81a0-41fd-87e2-35bd46302ca5",
+                      "action_id": "59a31814-ddcf-439a-a19f-7da2b8ec3444",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "b5af8785-55bb-4815-9a6f-36c23e026d2b",
+                      "action_id": "4ca5cfdb-073f-4078-9e8b-398a2460411c",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "6291b4e0-2886-41d1-899c-cb58c640c8e9",
+                      "action_id": "65c6eb4d-8fe9-4d60-8199-4c2f28037922",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "b08d08d1-1452-4737-8c59-02b5438911e4",
+                      "action_id": "5641b8f7-d000-4608-b8ba-fbb0c1d78eb1",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "54c82d69-ed58-41c9-b786-eeaf0ee09537",
+                      "action_id": "7e705408-1fa1-4b4f-a53f-ca16d25f2980",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "90cd9918-9156-4642-acd6-7c58a3b5caa4",
+                      "action_id": "d946ad2c-cbec-4ca0-964e-fa658020aa54",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "a50f7704-fe0d-49b0-a3ff-727063c670cf",
+                      "goto_state": "1"
+                    }
+                  ],
+                  ":id": "2"
+                }
+              ]
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "bf8bf50f-5126-41c3-b2fd-8d3a770c8c36",
+              "state": {
+                "transaction": {
+                  "action_id": "b2608185-e681-4553-947a-0b72c2fff411",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "9b28c892-45e2-4ba1-86f6-fe8d05777167",
+              "state": {
+                "transaction": {
+                  "action_id": "ca54a084-599f-46ab-9db1-c1f5ef0170f0",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "e75a18c0-6c61-414d-b660-82a0ac90e815",
+              "state": {
+                "transaction": {
+                  "action_id": "e2d2e2f6-b48d-4552-ae1b-c00445756621",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "3a27da81-357a-4692-9085-b23d93835c1d",
+              "state": {
+                "transaction": {
+                  "action_id": "95f6ff2b-0987-4794-8844-f57bba33ca80",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "9ce4459b-9184-4afa-9963-4c7f5f5c5e65",
+              "state": [
+                {
+                  "transaction": [
+                    {
+                      "calculation_id": "a4c1caff-8a34-495e-b7ca-5faef9c1fcd1",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "c9f644bc-dac4-4c46-8e95-015071f07c71",
+                      "action_id": "578ee93f-49cf-404f-8128-7657720512a5"
+                    }
+                  ],
+                  ":id": "1"
+                },
+                {
+                  "transaction": {
+                    "calculation_id": "c9f644bc-dac4-4c46-8e95-015071f07c71",
+                    "goto_state": "3"
+                  },
+                  ":id": "2"
+                },
+                {
+                  "transaction": {
+                    "calculation_id": "1f95d0d6-bf3e-4836-9393-90f7f390578d",
+                    "goto_state": "1"
+                  },
+                  ":id": "3"
+                }
+              ]
+            }
+          ],
+          "service": []
+        }
+      ]
+    },
+    {
+      ":type": "urn:seluxit:xml:bastard:device-1.0",
+      ":id": "fa244770-75a3-11e6-a0a1-001a65001494",
+      "name": "SG Sensor",
+      "manufacturer": "Gardena",
+      "product": "2-DEVICE",
+      "version": "1.0.3-2.5.2-1.2.1-5136-ICD1.17_1.0.10",
+      "serial": "3034F8EE90126740000058E5",
+      "protocol": "Lemonbeat",
+      "communication": "Wake on Radio",
+      "included": "1",
+      "status": [
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "d1072ec0-75b2-11e6-b830-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T10:55:55.296255Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "d126df2c-75b2-11e6-b830-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T10:55:55.499886Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "331aa602-75bb-11e6-b830-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T11:55:55.814876Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "954b6ce6-75c3-11e6-b830-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T12:55:56.524544Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "f78a14f4-75cb-11e6-b830-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T13:55:57.326558Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "2a8b0704-75d7-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T15:16:07.355796Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "be5adab6-75de-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_UPGRADE_SUCCESS",
+          "timestamp": "2016-09-08T16:10:21.819955Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "cfd2a652-75de-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T16:10:51.126329Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "d5ca5dac-75de-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_INCLUSION_SUCCESS",
+          "timestamp": "2016-09-08T16:11:01.138356Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "e4d1526a-75de-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T16:11:26.349759Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "e4d22348-75de-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_REPORT_SUCCESS",
+          "timestamp": "2016-09-08T16:11:26.355112Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "503fbda4-75e7-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T17:11:42.567651Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "505e4102-75e7-11e6-87db-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-08T17:11:42.763410Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "b2727b30-75ef-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T18:11:43.295227Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "14969ac8-75f8-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T19:11:43.922577Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "76781b1a-7600-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T20:11:44.108553Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "d8ad47bc-7608-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T21:11:44.847782Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "3a997a38-7611-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T22:11:45.116722Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "9cedd5f0-7619-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-08T23:11:46.064046Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "c2d16548-7632-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T02:11:47.041551Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "250cdac8-763b-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T03:11:47.817357Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "872dc8f4-7643-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T04:11:48.434972Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "e9639a3c-764b-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T05:11:49.166848Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "4bcae8ee-7654-11e6-87db-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-09T06:11:50.239081Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "7a6196b6-7fe2-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-21T10:02:17.393760Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "83fa16d0-7fe2-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_DEVICE_ALIVE",
+          "timestamp": "2016-09-21T10:02:33.492651Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "11917446-7fe5-11e6-b8e5-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-21T10:20:50.036854Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "1b4d9f8c-7fe5-11e6-b8e5-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-21T10:21:06.373954Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "1109844a-8270-11e6-8c4a-001a65001494",
+          "level": "info",
+          "type": "gateway",
+          "message": "STATUS_NEW_CONFIGURATION_SUCCESS",
+          "timestamp": "2016-09-24T16:00:51.516940Z"
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:status-1.0",
+          ":id": "1a5cafae-8270-11e6-8c4a-001a65001494",
+          "level": "important",
+          "type": "application",
+          "message": "code ID: 0",
+          "timestamp": "2016-09-24T16:01:07.165894Z"
+        }
+      ],
+      "service": [
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "dd2e6a34-7885-44e2-9b0c-f878997fdee2",
+          "name": "soil_humidity",
+          "permission": "r",
+          "type": "Humidity",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "percent"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "2a357675-5c86-432d-8d76-7a52e4c798e2",
+              "type": "Report",
+              "timestamp": "2016-09-24T15:58:01.0Z",
+              "data": "0.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "fd4f73a2-156d-483e-bc26-04c8da11f1eb",
+          "name": "soil_temperature",
+          "permission": "r",
+          "type": "Temperature",
+          "virtual": "false",
+          "number": {
+            "min": "-30.000000",
+            "max": "85.000000",
+            "step": "1.000000",
+            "unit": "C"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "e8e921f9-ad15-49c7-ba79-5425f01f4ba3",
+              "type": "Report",
+              "timestamp": "2016-09-24T15:56:49.0Z",
+              "data": "24.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "98a3808b-f2a0-4958-a595-8b6ebe8a2eef",
+          "name": "ambient_temperature",
+          "permission": "r",
+          "type": "Temperature",
+          "virtual": "false",
+          "number": {
+            "min": "-30.000000",
+            "max": "85.000000",
+            "step": "1.000000",
+            "unit": "C"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "f12a7156-dfe4-4aef-bf80-e7b37034e23d",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:01:07.0Z",
+              "data": "24.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "de99f06c-beeb-4739-a509-68daef8f8842",
+          "name": "frost_warning",
+          "permission": "r",
+          "type": "On/Off",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "1.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "5b533fdb-b739-469f-ae3d-c93c26478408",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:01:07.0Z",
+              "data": "0.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "8bd8e799-c69e-4997-bc1f-b0ef0140e6fb",
+          "name": "light",
+          "permission": "r",
+          "type": "Luminance",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "200000.000000",
+            "step": "1.000000",
+            "unit": "lx"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "fa5e9dae-e6b6-4d4a-8e1c-d44aa5153ea7",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:01:07.0Z",
+              "data": "62.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "818c5cb8-24d8-4bb1-979c-0bc74eea1aef",
+          "name": "command",
+          "permission": "rw",
+          "type": "Program",
+          "virtual": "false",
+          "number": {
+            "min": "1.000000",
+            "max": "17.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "9280c0b0-173a-4fcf-822e-24d12c1fa9ac",
+              "type": "Control",
+              "timestamp": "2016-09-08T09:09:51.0Z",
+              "data": "7"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "4be62d65-4fb4-456b-abf5-694fb5e3920b",
+              "type": "Report",
+              "timestamp": "2016-09-08T16:11:02.0Z",
+              "data": "1.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "ba2eceb1-4121-4070-956f-845eef905361",
+          "name": "rf_link_quality",
+          "permission": "r",
+          "type": "General Purpose",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "percent"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "6ca413fb-21c8-4030-9d8c-40c8a6a40382",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:01:07.0Z",
+              "data": "100.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "eb933a8f-998e-4863-b5c6-9d38e1bfa151",
+          "name": "rf_link_state",
+          "permission": "r",
+          "type": "Operation Mode",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "2.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "3a3cf97d-ac0d-45d0-a695-72636b331994",
+              "type": "Report",
+              "timestamp": "2016-09-24T16:01:07.0Z",
+              "data": "2.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "a6f20901-2e7c-4e7c-b734-202ce9ac51d7",
+          "name": "disposable_battery_lifecycle",
+          "permission": "r",
+          "type": "Operation Mode",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "3.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "1e6f2904-4113-45fe-ae84-f96efb83a722",
+              "type": "Report",
+              "timestamp": "2016-09-08T16:11:02.0Z",
+              "data": "3.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "8fcee8ef-b802-4805-be91-d4af7a8a2122",
+          "name": "battery_level",
+          "permission": "r",
+          "type": "Power",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "percent"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "8cea1f79-3f7e-4499-843e-05b500e02a4a",
+              "type": "Report",
+              "timestamp": "2016-09-24T12:53:14.0Z",
+              "data": "92.000000"
+            }
+          ]
+        },
+        {
+          ":type": "urn:seluxit:xml:bastard:service-1.0",
+          ":id": "8d6aa9c5-cb81-4f45-92d2-48f85dc697e2",
+          "name": "private_command",
+          "permission": "rw",
+          "type": "General Purpose",
+          "virtual": "false",
+          "number": {
+            "min": "0.000000",
+            "max": "100.000000",
+            "step": "1.000000",
+            "unit": "no unit"
+          },
+          "status": "ok",
+          "value": [
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+              "type": "Control",
+              "timestamp": "2016-09-08T09:09:49.0Z",
+              "data": "20.000000"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:value-1.0",
+              ":id": "dc6b994a-4699-427b-9659-85375a986f4f",
+              "type": "Report",
+              "timestamp": "2016-09-08T16:11:02.0Z",
+              "data": "2.000000"
+            }
+          ]
+        }
+      ],
+      "configuration": [
+        {
+          ":type": "urn:seluxit:xml:bastard:configuration-1.0",
+          ":id": "e5d050ac-d898-428a-8167-599cdb4cda08",
+          "status": "active",
+          "limits": {
+            "partner": "5",
+            "action": "35",
+            "calendar": "20",
+            "calculation": "30",
+            "timer": "15",
+            "statemachine": "10",
+            "transactions": "40"
+          },
+          "partner": [
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c",
+              "device_id": "f4f5c3b1-3c93-4fa8-9941-7b44c4f94ea9"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:partner-1.0",
+              ":id": "8d0fb7d2-d074-4a15-9201-a59f433c57a9",
+              "device_id": "ef340006-750a-11e6-b25b-001a65001494"
+            }
+          ],
+          "action": [
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "f2046b7a-e304-4a1a-892f-e1b59f8ffb16",
+              "report": {
+                "my_value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "ef7c3b07-13bf-433a-b76b-c1cf8f99708f",
+              "report": {
+                "my_value_id": "e8e921f9-ad15-49c7-ba79-5425f01f4ba3",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "aecc3da3-4299-40c2-b544-235a4dec8e54",
+              "report": {
+                "my_value_id": "f12a7156-dfe4-4aef-bf80-e7b37034e23d",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "ae5f5b00-83f5-4160-bd93-8c07566415bb",
+              "report": {
+                "my_value_id": "5b533fdb-b739-469f-ae3d-c93c26478408",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "a0566135-7cc7-480f-98b6-5f302e7849e1",
+              "report": {
+                "my_value_id": "fa5e9dae-e6b6-4d4a-8e1c-d44aa5153ea7",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "17d901d6-e9b2-4c91-9405-f1f0bd4c0a13",
+              "report": {
+                "my_value_id": "4be62d65-4fb4-456b-abf5-694fb5e3920b",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "0ff3666c-10b7-47e3-af9f-413157a2cd56",
+              "report": {
+                "my_value_id": "6ca413fb-21c8-4030-9d8c-40c8a6a40382",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "4f688ba1-54e1-4d91-a670-f1e6e35dbb4f",
+              "report": {
+                "my_value_id": "3a3cf97d-ac0d-45d0-a695-72636b331994",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "8426c17d-d3f9-44c3-ba44-e26937a83d73",
+              "report": {
+                "my_value_id": "1e6f2904-4113-45fe-ae84-f96efb83a722",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "79e9f250-01bc-4e1f-a5eb-7ce744a25a0f",
+              "report": {
+                "my_value_id": "8cea1f79-3f7e-4499-843e-05b500e02a4a",
+                "partner_id": "a37c106f-a8e3-4951-9d63-969ae9f9d58c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "bbcb37cf-7afc-4f45-b49d-ccb75feecbc8",
+              "start_timer": {
+                "timer_id": "b8eae0b2-40ef-4302-bd11-bd339501fe18"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "e4bc5e53-df0b-4020-b814-ab8b91482370",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "21"
+              },
+              "start_timer": {
+                "timer_id": "b004e890-3d60-473a-af4b-412c66f94aa5"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "11d5bce1-d443-4153-9244-4885ead13841",
+              "start_timer": {
+                "timer_id": "02736a44-7fbf-4230-ba74-59747babcdcb"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "327fb76a-52c5-4c8f-839b-f6c6e15330db",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "14"
+              },
+              "start_timer": {
+                "timer_id": "438b1140-0a7a-4d49-b8c2-06740592bd70"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "597c154f-0241-4620-94b0-0a98347c509a",
+              "start_timer": {
+                "timer_id": "e5f94208-0170-42ae-980a-564353c52b73"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "f35813ad-5b61-40f7-bd49-7c0867d03ec1",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "16"
+              },
+              "start_timer": {
+                "timer_id": "4b2d1f4b-b3d5-4b0b-979f-77cd4abecacd"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "576c462a-00d2-4c0b-ad1a-4cf223acd4ef",
+              "start_timer": {
+                "timer_id": "0c3668cc-517b-400d-9884-e14373631617"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "e9d03284-607b-49d9-a353-81c3aa1fe07b",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "20"
+              },
+              "start_timer": {
+                "timer_id": "d8cfc2fd-9039-486d-8737-8110d5a734fe"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "f68cbd7d-00fd-4a86-a95c-8b84a3c500c0",
+              "start_timer": {
+                "timer_id": "d92a4291-a7b4-4320-acfc-bfae35d55048"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "e3e154fa-4e2f-448f-bd4f-0dd3e8128912",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "10"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "e9880524-552c-4814-8d75-c5179ec51468",
+              "start_timer": {
+                "timer_id": "7ff7d64e-4807-4989-9b03-6741e50b3e14"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "2e4ce4f2-8507-4e74-a25f-adb575f98626",
+              "start_timer": {
+                "timer_id": "d3059634-e7ef-4f47-862a-59141a003184"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "e1de39eb-8b6e-4273-b1bb-22e5e8c7b664",
+              "start_timer": {
+                "timer_id": "bf57bb8d-5adb-4800-94ea-f4d50976973c"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "0838b4d9-a0ab-4221-9f2d-d1e4b65133dc",
+              "start_timer": {
+                "timer_id": "680b3b54-b768-4028-8fbd-7104be524986"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "cfd4b394-26d4-4f15-98dc-cba934463871",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "11"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:action-1.0",
+              ":id": "d53bafb2-b136-4e36-9cbb-df520f7c80c9",
+              "set": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561",
+                "number": "12"
+              }
+            }
+          ],
+          "calendar": [],
+          "calculation": [
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "b909e836-6b7e-463f-be66-90af72cb70aa",
+              "left": {
+                "value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "b3fc1016-1fa0-424b-b71b-d5e4001ae26f",
+              "left": {
+                "value_id": "e8e921f9-ad15-49c7-ba79-5425f01f4ba3",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "2f4858ac-ae49-44ac-b58c-e2d99cd805d2",
+              "left": {
+                "value_id": "f12a7156-dfe4-4aef-bf80-e7b37034e23d",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "b250e2ec-9f22-4996-9908-ad19c7f0baaf",
+              "left": {
+                "value_id": "5b533fdb-b739-469f-ae3d-c93c26478408",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "107c4629-0112-4824-a111-a4f6e5e1ec2f",
+              "left": {
+                "value_id": "fa5e9dae-e6b6-4d4a-8e1c-d44aa5153ea7",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "5ac442a0-e604-4f93-95bf-c96bde639edc",
+              "left": {
+                "value_id": "9280c0b0-173a-4fcf-822e-24d12c1fa9ac",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "a3199cf7-ea58-49b2-a37d-b354d8d30000",
+              "left": {
+                "value_id": "6ca413fb-21c8-4030-9d8c-40c8a6a40382",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "e20a1eaa-fcfc-4254-a61d-c474acc79ad7",
+              "left": {
+                "value_id": "3a3cf97d-ac0d-45d0-a695-72636b331994",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "6f0d3539-21de-4e93-893a-5c78f2303a31",
+              "left": {
+                "value_id": "1e6f2904-4113-45fe-ae84-f96efb83a722",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "d4e21349-a261-48b2-a6b5-c6cd1b2eeb23",
+              "left": {
+                "value_id": "8cea1f79-3f7e-4499-843e-05b500e02a4a",
+                "is_updated": "true"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "and"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "6d866efe-c8e7-41de-b0bc-b8973973c8f6",
+              "left": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561"
+              },
+              "right": {
+                "constant_number": "1"
+              },
+              "method": "equal"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "3e14b058-9910-440f-9805-66d32fb51472",
+              "left": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561"
+              },
+              "right": {
+                "constant_number": "2"
+              },
+              "method": "equal"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "3c40b906-981b-4da5-99b8-4a4c23b411b8",
+              "left": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561"
+              },
+              "right": {
+                "constant_number": "10"
+              },
+              "method": "equal"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "f40baedf-d8be-4ab9-b61d-d70dd9df65cf",
+              "left": {
+                "value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2"
+              },
+              "right": {
+                "constant_number": "25"
+              },
+              "method": "smaller"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "d1650c83-127f-46e9-9682-a51e1adeaf65",
+              "left": {
+                "value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2"
+              },
+              "right": {
+                "constant_number": "50"
+              },
+              "method": "smaller"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "fcbb471b-8acc-4d80-812d-f4160301637d",
+              "left": {
+                "value_id": "2a357675-5c86-432d-8d76-7a52e4c798e2"
+              },
+              "right": {
+                "constant_number": "75"
+              },
+              "method": "smaller"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:calculation-1.0",
+              ":id": "37c20268-cc82-4c28-8456-4e05b99b3de5",
+              "left": {
+                "value_id": "98dac8d0-1d78-402a-bd38-d726ec2cd561"
+              },
+              "right": {
+                "constant_number": "11"
+              },
+              "method": "equal"
+            }
+          ],
+          "timer": [
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "b8eae0b2-40ef-4302-bd11-bd339501fe18",
+              "after": "15000",
+              "action_id": "e4bc5e53-df0b-4020-b814-ab8b91482370"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "b004e890-3d60-473a-af4b-412c66f94aa5",
+              "after": "3600000",
+              "action_id": "e4bc5e53-df0b-4020-b814-ab8b91482370"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "02736a44-7fbf-4230-ba74-59747babcdcb",
+              "after": "15000",
+              "action_id": "327fb76a-52c5-4c8f-839b-f6c6e15330db"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "438b1140-0a7a-4d49-b8c2-06740592bd70",
+              "after": "3600000",
+              "action_id": "327fb76a-52c5-4c8f-839b-f6c6e15330db"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "e5f94208-0170-42ae-980a-564353c52b73",
+              "after": "15000",
+              "action_id": "f35813ad-5b61-40f7-bd49-7c0867d03ec1"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "4b2d1f4b-b3d5-4b0b-979f-77cd4abecacd",
+              "after": "3600000",
+              "action_id": "f35813ad-5b61-40f7-bd49-7c0867d03ec1"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "0c3668cc-517b-400d-9884-e14373631617",
+              "after": "15000",
+              "action_id": "e9d03284-607b-49d9-a353-81c3aa1fe07b"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "d8cfc2fd-9039-486d-8737-8110d5a734fe",
+              "after": "3600000",
+              "action_id": "e9d03284-607b-49d9-a353-81c3aa1fe07b"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "d92a4291-a7b4-4320-acfc-bfae35d55048",
+              "after": "900000",
+              "action_id": "e3e154fa-4e2f-448f-bd4f-0dd3e8128912"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "7ff7d64e-4807-4989-9b03-6741e50b3e14",
+              "after": "3600000",
+              "action_id": "cfd4b394-26d4-4f15-98dc-cba934463871"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "d3059634-e7ef-4f47-862a-59141a003184",
+              "after": "5400000",
+              "action_id": "cfd4b394-26d4-4f15-98dc-cba934463871"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "bf57bb8d-5adb-4800-94ea-f4d50976973c",
+              "after": "10800000",
+              "action_id": "cfd4b394-26d4-4f15-98dc-cba934463871"
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:timer-1.0",
+              ":id": "680b3b54-b768-4028-8fbd-7104be524986",
+              "after": "14400000",
+              "action_id": "cfd4b394-26d4-4f15-98dc-cba934463871"
+            }
+          ],
+          "statemachine": [
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "ae3fa8c9-1e9f-4c3f-b3d1-080274fc7e34",
+              "state": [
+                {
+                  "transaction": {
+                    "calculation_id": "6d866efe-c8e7-41de-b0bc-b8973973c8f6",
+                    "goto_state": "2"
+                  },
+                  ":id": "1"
+                },
+                {
+                  "transaction": [
+                    {
+                      "calculation_id": "b909e836-6b7e-463f-be66-90af72cb70aa",
+                      "action_id": "f2046b7a-e304-4a1a-892f-e1b59f8ffb16",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "b3fc1016-1fa0-424b-b71b-d5e4001ae26f",
+                      "action_id": "ef7c3b07-13bf-433a-b76b-c1cf8f99708f",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "2f4858ac-ae49-44ac-b58c-e2d99cd805d2",
+                      "action_id": "aecc3da3-4299-40c2-b544-235a4dec8e54",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "b250e2ec-9f22-4996-9908-ad19c7f0baaf",
+                      "action_id": "ae5f5b00-83f5-4160-bd93-8c07566415bb",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "107c4629-0112-4824-a111-a4f6e5e1ec2f",
+                      "action_id": "a0566135-7cc7-480f-98b6-5f302e7849e1",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "5ac442a0-e604-4f93-95bf-c96bde639edc",
+                      "action_id": "17d901d6-e9b2-4c91-9405-f1f0bd4c0a13",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "a3199cf7-ea58-49b2-a37d-b354d8d30000",
+                      "action_id": "0ff3666c-10b7-47e3-af9f-413157a2cd56",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "e20a1eaa-fcfc-4254-a61d-c474acc79ad7",
+                      "action_id": "4f688ba1-54e1-4d91-a670-f1e6e35dbb4f",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "6f0d3539-21de-4e93-893a-5c78f2303a31",
+                      "action_id": "8426c17d-d3f9-44c3-ba44-e26937a83d73",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "d4e21349-a261-48b2-a6b5-c6cd1b2eeb23",
+                      "action_id": "79e9f250-01bc-4e1f-a5eb-7ce744a25a0f",
+                      "goto_state": "2"
+                    },
+                    {
+                      "calculation_id": "3e14b058-9910-440f-9805-66d32fb51472",
+                      "goto_state": "1"
+                    }
+                  ],
+                  ":id": "2"
+                }
+              ]
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "bf4779b5-f4ce-46d6-8f36-a0950f589f61",
+              "state": {
+                "transaction": {
+                  "action_id": "bbcb37cf-7afc-4f45-b49d-ccb75feecbc8",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "8bef3544-0a00-4f68-8f70-afd333ae86fe",
+              "state": {
+                "transaction": {
+                  "action_id": "11d5bce1-d443-4153-9244-4885ead13841",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "bba4053d-5dfa-4ac5-a23e-d40252b9cc8f",
+              "state": {
+                "transaction": {
+                  "action_id": "597c154f-0241-4620-94b0-0a98347c509a",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "16b5e1f9-52d0-4e1e-b890-e65e1ccf3206",
+              "state": {
+                "transaction": {
+                  "action_id": "576c462a-00d2-4c0b-ad1a-4cf223acd4ef",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "f58ffd2c-ed07-4dc9-ae80-fe80d4c06720",
+              "state": {
+                "transaction": {
+                  "action_id": "f68cbd7d-00fd-4a86-a95c-8b84a3c500c0",
+                  "goto_state": "2"
+                },
+                ":id": "1"
+              }
+            },
+            {
+              ":type": "urn:seluxit:xml:bastard:statemachine-1.0",
+              ":id": "aa1578c0-9f58-4db4-a99f-197bef7ade32",
+              "state": [
+                {
+                  "transaction": {
+                    "calculation_id": "3c40b906-981b-4da5-99b8-4a4c23b411b8",
+                    "goto_state": "2"
+                  },
+                  ":id": "1"
+                },
+                {
+                  "transaction": [
+                    {
+                      "calculation_id": "f40baedf-d8be-4ab9-b61d-d70dd9df65cf",
+                      "action_id": "e9880524-552c-4814-8d75-c5179ec51468",
+                      "goto_state": "5"
+                    },
+                    {
+                      "goto_state": "3"
+                    }
+                  ],
+                  ":id": "2"
+                },
+                {
+                  "transaction": [
+                    {
+                      "calculation_id": "d1650c83-127f-46e9-9682-a51e1adeaf65",
+                      "action_id": "2e4ce4f2-8507-4e74-a25f-adb575f98626",
+                      "goto_state": "5"
+                    },
+                    {
+                      "goto_state": "4"
+                    }
+                  ],
+                  ":id": "3"
+                },
+                {
+                  "transaction": [
+                    {
+                      "calculation_id": "fcbb471b-8acc-4d80-812d-f4160301637d",
+                      "action_id": "e1de39eb-8b6e-4273-b1bb-22e5e8c7b664",
+                      "goto_state": "5"
+                    },
+                    {
+                      "action_id": "0838b4d9-a0ab-4221-9f2d-d1e4b65133dc",
+                      "goto_state": "5"
+                    }
+                  ],
+                  ":id": "4"
+                },
+                {
+                  "transaction": {
+                    "calculation_id": "37c20268-cc82-4c28-8456-4e05b99b3de5",
+                    "action_id": "d53bafb2-b136-4e36-9cbb-df520f7c80c9",
+                    "goto_state": "1"
+                  },
+                  ":id": "5"
+                }
+              ]
+            }
+          ],
+          "service": []
+        }
+      ]
+    }
+  ]
+}
